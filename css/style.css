@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+body {
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url("../images/Cannabis_sativa_s_lat_sl5.png");
+    font-weight: 300;
+}
+
+.header {
+    font-family: 'Grandstander', cursive;
+    height: 330px;
+    background-image: url("../images/16_1764_oboi_marihuana_1680x1050.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #008000;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #002900;
+    text-align: center;
+    padding-top: 100px;
+    font-weight: 600;
+    font-size: 150px;
+}
+
+.preamble {
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+h2 {
+    background-color: rgba(0, 128, 0, 0.4);
+    font-size: 28px;
+    text-align: center;
+}
+
+h3 {
+    background-color: rgba(0, 128, 0, 0.4);
+    font-size: 24px;
+    text-align: center;
+}
+
+p {
+    font-size: 22px;
+    background-color: rgba(144, 238, 144, 0.4);
+}
+
+.classification {
+    margin: 0 10px;
+}
+
+.medical_uses {
+    margin: 0 10px;
+}
+
+.illnesses {
+    margin: 0 10px;
+    position: relative;
+}
+
+.illnesses p {
+    font-size: 18px;
+}
+
+.nausea_and_vomiting, .hiv_aids, .pain, .neurological_conditions, .posttraumatic_stress_disorder {
+    width: 49%;
+}
+
+.neurological_conditions {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.hiv_aids {
+    position: absolute;
+    right: 0;
+}
+
+a:link {
+    color: blue;
+    font-weight: 200;
+    font-size: 16px;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+a:visited {
+    color: darkgreen;
+}
+
+a:active {
+    color: red;
+}
